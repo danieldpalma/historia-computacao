@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  width: 100%;
+  /* background-image: url("https://wallpaperscraft.com/image/scheme_motherboard_intel_apple_26569_1920x1080.jpg"); */
+
+  /* Added 30/12/2023 */
+  background: url('https://images.wallpaperscraft.com/image/single/laptop_keyboard_glow_170138_1920x1080.jpg')
+    fixed no-repeat;
+  overflow-x: hidden;
+}
+
+div.main {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  box-shadow: 5px 5px #ccc;
+}
+
+h1.titulo {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 5px;
+}
+
+p,
+span {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+}
+
+p.normal {
+  font-style: normal;
+  text-align: justify;
+}
+
+p::first-letter {
+  margin-left: 10px;
+}
+
+a {
+  color: #3498db;
+  text-decoration-style: dashed;
+}
+
+a:hover {
+  color: grey;
+}
+
+span.oblique {
+  font-style: oblique;
+}
+
+span.bold {
+  font-weight: bold;
+}
